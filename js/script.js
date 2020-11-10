@@ -24,5 +24,5 @@ if (empty(colore).length == 0) {
 document.getElementById("nome").innerHTML = nome;
 
 // Remove empty spaces //
-var password = empty(nome) + empty(cognome) + empty(colore) + "19";
-document.getElementById("password").innerHTML = password;
+var password = nome + cognome + colore + "19";
+document.getElementById("password").innerHTML = empty(password);
