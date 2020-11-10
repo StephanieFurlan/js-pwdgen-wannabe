@@ -1,0 +1,49 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-image: linear-gradient(to right, #d2c3e8 , #7d86b6);
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+}
+.container {
+   width: 60%;
+   margin: 100px auto;
+   background-color: #120d21;
+   padding: 40px;
+   border-radius: 50px;
+   color: white;
+}
+
+p {
+   margin: 10px;
+}
+header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+
+}
+
+header i {
+   font-size: 50px;
+   padding: 20px;
+}
+
+#password {
+   width: 60%;
+   margin: 20px auto;
+   text-align: center;
+   padding: 40px;
+   font-size: 40px;
+}
+.bg {
+   font-size: 25px;
+   color: #3f018b;
+   background-color: white;
+   border-radius: 5px;
+}
